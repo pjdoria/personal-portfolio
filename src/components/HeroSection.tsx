@@ -6,7 +6,7 @@ import { Mail } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="bg-gradient-to-b from-white to-blue-50">
+    <section className="bg-[rgba(26,26,26,1)] text-white">
       <div className="container-section flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/3 flex justify-center">
           <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary shadow-lg">
@@ -19,11 +19,15 @@ const HeroSection = () => {
         </div>
         
         <div className="md:w-2/3">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
-            <span className="text-primary">Back-End</span> Developer
+          <h1 className="text-4xl md:text-5xl font-bold mb-2 text-white">
+            Peter Doria Herrera
           </h1>
           
-          <p className="text-lg text-gray-600 mb-6">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-primary">
+            Back-End Developer
+          </h2>
+          
+          <p className="text-lg text-gray-300 mb-6">
             Experienced back-end developer with expertise in Java/Spring Boot and WordPress. 
             I specialize in building robust, scalable, and secure server-side applications 
             that power modern web experiences. With a strong focus on code quality and 
