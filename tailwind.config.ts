@@ -25,7 +25,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
+					DEFAULT: "hsl(79 99% 67%)",
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -80,11 +80,8 @@ export default {
 				'accordion-up': {
 					from: {
 						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
 					}
-				}
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
