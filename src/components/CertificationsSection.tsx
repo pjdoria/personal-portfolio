@@ -41,7 +41,7 @@ const CertificationsSection = () => {
   return (
     <section id="certifications" className="bg-gray-50">
       <div className="container-section">
-        <h2 className="section-title text-center">Professional Certifications</h2>
+        <h2 className="section-title text-center text-primary">Professional Certifications</h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           My commitment to continuous learning and professional development is reflected in these industry-recognized certifications.
         </p>

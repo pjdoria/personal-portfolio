@@ -38,7 +38,7 @@ const JavaProjectsSection = () => {
   return (
     <section id="java-projects" className="bg-gray-50">
       <div className="container-section">
-        <h2 className="section-title text-center">Java & Spring Boot Projects</h2>
+        <h2 className="section-title text-center text-primary">Java & Spring Boot Projects</h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Enterprise-grade applications and APIs built with Java and Spring Boot, focusing on scalability, security, and performance.
         </p>

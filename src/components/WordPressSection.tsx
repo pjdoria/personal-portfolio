@@ -30,7 +30,7 @@ const WordPressSection = () => {
   return (
     <section id="wordpress-projects" className="bg-white">
       <div className="container-section">
-        <h2 className="section-title text-center">WordPress Projects</h2>
+        <h2 className="section-title text-center text-primary">WordPress Projects</h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Custom WordPress solutions built for various business needs, featuring unique designs and functionality.
         </p>
